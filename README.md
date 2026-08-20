@@ -433,3 +433,5 @@ This project was created for academic purposes. If you intend to reuse or distri
 <p align="center">
   <sub>Built with Spring Cloud · LangGraph · Next.js · Docker</sub>
 </p>
+
+author:
