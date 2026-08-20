@@ -1,3 +1,5 @@
+Author: Minh Khang Nguyen (Will)
+
 docker compose build
 docker compose up -d
 docker compose down -v
