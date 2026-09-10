@@ -29,7 +29,6 @@
 - [Project Structure](#project-structure)
 - [Local Development](#local-development)
 - [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -145,7 +144,7 @@ ollama pull nomic-embed-text
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/willkhang67/Chatbot-platform
 cd project-6-chatbot-microservice-platform
 ```
 
@@ -403,15 +402,6 @@ docker compose exec postgres psql -U postgres -d chatbot   # database shell
 | CORS errors in the browser | Add the frontend origin to `CORS_ALLOWED_ORIGINS` and restart the gateway and classifier. |
 | Services fail to start in order | Compose uses healthchecks/`depends_on`; on a cold start, give Postgres and the config/discovery services time to become healthy. |
 | Need a clean slate | `docker compose down -v` removes the Postgres and RAG-memory volumes. |
-
----
-
-## Roadmap
-
-- [ ] Automated test suites (unit + integration) across services
-- [ ] CI/CD pipeline for build, test, and image publishing
-- [ ] Observability (centralised logging, metrics, tracing)
-- [ ] Pluggable LLM providers beyond Ollama
 
 ---
 
