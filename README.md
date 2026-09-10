@@ -145,7 +145,7 @@ ollama pull nomic-embed-text
 
 ```bash
 git clone https://github.com/willkhang67/Chatbot-platform
-cd project-6-chatbot-microservice-platform
+cd Chatbot-platform
 ```
 
 ### 2. Create the environment file
