@@ -237,16 +237,16 @@ Environment variables are loaded from `.env` at the project root.
 
 | Service | Internal Port | Exposed | Purpose |
 |---------|:-------------:|:-------:|---------|
-| `frontend` | 3000 | ✅ | Next.js UI |
-| `gateway-service` | 8060 | ✅ | Public API entrypoint, routing, CORS |
+| `frontend` | 3000 | yes | Next.js UI |
+| `gateway-service` | 8060 | yes | Public API entrypoint, routing, CORS |
 | `discovery-service` | 8061 | – | Eureka service registry |
 | `config-service` | 8088 | – | Centralised YAML configuration |
 | `authorization-service` | 8087 | – | OAuth2 token issuance (JWT) |
 | `user-service` | 8085 | – | User CRUD and registration |
 | `chat-service` | 8086 | – | Chat message persistence |
 | `personalization-service` | – | – | User personalisation module |
-| `classifier-service` | 8011 | ✅ | Unit/topic classification |
-| `ragbot` | 5000 | ✅ | Agentic RAG chatbot (health: `/healthz`) |
+| `classifier-service` | 8011 | yes | Unit/topic classification |
+| `ragbot` | 5000 | yes | Agentic RAG chatbot (health: `/healthz`) |
 | `postgres` | 5432 | – | Relational database |
 
 All Spring Boot services are built from a single shared Dockerfile at `springboot_be/Dockerfile` (the target module is selected via the `SERVICE` build argument).
