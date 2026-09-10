@@ -407,14 +407,14 @@ docker compose exec postgres psql -U postgres -d chatbot   # database shell
 
 ## Acknowledgements
 
-Developed as a university project at **Murdoch University**. Thanks to supervisors and host-organisation mentors for their guidance throughout the internship and project delivery.
-
-**Author:** Minh Khang Nguyen (Spring Boot backend, RAG System, Frontend, Database, Containerisation) , John Palmes (Topics Classifier, FastAPI Server), Mili (Documentation), Effy (Documentation)
-
+**Author:** 
+1. Minh Khang Nguyen (Spring Boot backend, RAG System, Frontend, Database, Containerisation)
+2. John Palmes (Topics Classifier, FastAPI Server)
+3. Mili (Documentation)
+4. Effy (Documentation)
+   
 ---
 
 <p align="center">
   <sub>Built with Spring Cloud · LangGraph · Next.js · Docker</sub>
 </p>
-
-author:
