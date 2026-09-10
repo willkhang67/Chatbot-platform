@@ -2,7 +2,7 @@
 
 > An AI-powered learning assistant for IT students that combines a secure Spring Cloud microservices backend, a Next.js frontend, and Python AI services for course-grounded, Socratic tutoring.
 
-<p align="left">
+<!-- <p align="left">
   <img alt="Java" src="https://img.shields.io/badge/Java-23-007396?logo=openjdk&logoColor=white">
   <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-3.4.3-6DB33F?logo=springboot&logoColor=white">
   <img alt="Spring Cloud" src="https://img.shields.io/badge/Spring%20Cloud-2024.0.0-6DB33F?logo=spring&logoColor=white">
@@ -11,7 +11,7 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white">
-</p>
+</p> -->
 
 ---
 
@@ -120,8 +120,8 @@ The backend follows a standard Spring Cloud topology: a **Config Server** distri
 | **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS 4, Sass |
 | **Backend** | Java 23, Spring Boot 3.4.3, Spring Cloud 2024.0.0, Spring Security OAuth2, JWT |
 | **Database** | PostgreSQL 16 |
-| **AI — RAG** | Python, LangGraph, LangChain, Ollama, SQLite (checkpoints) |
-| **AI — Classifier** | Python, FastAPI, scikit-learn (`LinearSVC`), Uvicorn |
+| **AI - RAG** | Python, LangGraph, LangChain, Ollama, SQLite (checkpoints) |
+| **AI - Classifier** | Python, FastAPI, scikit-learn (`LinearSVC`), Uvicorn |
 | **Infrastructure** | Docker, Docker Compose, Eureka, Spring Cloud Config |
 
 ---
@@ -420,7 +420,7 @@ docker compose exec postgres psql -U postgres -d chatbot   # database shell
 
 Developed as a university project at **Murdoch University**. Thanks to supervisors and host-organisation mentors for their guidance throughout the internship and project delivery.
 
-**Author:** Minh Khang Nguyen, John Palmes
+**Author:** Minh Khang Nguyen (Spring Boot backend, RAG System, Frontend, Database, Containerisation) , John Palmes (Topics Classifier, FastAPI Server), Mili (Documentation), Effy (Documentation)
 
 ---
 
