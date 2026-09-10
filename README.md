@@ -31,7 +31,6 @@
 - [Troubleshooting](#troubleshooting)
 - [Roadmap](#roadmap)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ---
 
@@ -421,12 +420,6 @@ docker compose exec postgres psql -U postgres -d chatbot   # database shell
 Developed as a university project at **Murdoch University**. Thanks to supervisors and host-organisation mentors for their guidance throughout the internship and project delivery.
 
 **Author:** Minh Khang Nguyen (Spring Boot backend, RAG System, Frontend, Database, Containerisation) , John Palmes (Topics Classifier, FastAPI Server), Mili (Documentation), Effy (Documentation)
-
----
-
-## License
-
-This project was created for academic purposes. If you intend to reuse or distribute it, please contact the author for licensing terms.
 
 ---
 
